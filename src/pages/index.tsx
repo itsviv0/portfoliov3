@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -13,7 +12,7 @@ const Index = () => {
   useEffect(() => {
     // Intersection Observer for animations
     const appearElements = document.querySelectorAll(".appear-animation");
-    
+
     const appearObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -25,11 +24,11 @@ const Index = () => {
       },
       { threshold: 0.1 }
     );
-    
+
     appearElements.forEach((element) => {
       appearObserver.observe(element);
     });
-    
+
     return () => {
       appearElements.forEach((element) => {
         appearObserver.unobserve(element);
