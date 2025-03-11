@@ -102,7 +102,7 @@ const Contact = () => {
 
               <div className="space-y-6 mt-auto">
                 <a
-                  href="mailto:vivek.sindagi@example.com"
+                  href="mailto:vivekganeshs12@gmail.com"
                   className="flex items-center group"
                 >
                   <div className="w-12 h-12 rounded-full bg-navy flex items-center justify-center border border-teal/30 group-hover:border-teal transition-colors">
@@ -113,13 +113,13 @@ const Contact = () => {
                       Email
                     </h5>
                     <p className="text-slate text-sm">
-                      vivek.sindagi@example.com
+                      vivekganeshs12@gmail.com
                     </p>
                   </div>
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/viveksindagi"
+                  href="https://linkedin.com/in/vivek-g-sindagi"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center group"
@@ -132,13 +132,13 @@ const Contact = () => {
                       LinkedIn
                     </h5>
                     <p className="text-slate text-sm">
-                      linkedin.com/in/viveksindagi
+                      linkedin.com/in/vivek-g-sindagi
                     </p>
                   </div>
                 </a>
 
                 <a
-                  href="https://github.com/vivekgsindagi"
+                  href="https://github.com/itsviv0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center group"
@@ -150,9 +150,7 @@ const Contact = () => {
                     <h5 className="text-white group-hover:text-teal transition-colors">
                       GitHub
                     </h5>
-                    <p className="text-slate text-sm">
-                      github.com/vivekgsindagi
-                    </p>
+                    <p className="text-slate text-sm">github.com/itsviv0</p>
                   </div>
                 </a>
               </div>
