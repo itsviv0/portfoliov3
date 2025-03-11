@@ -51,7 +51,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="/src/resume/vivekgsindagi.pdf"
+            href="https://firebasestorage.googleapis.com/v0/b/itsviv0.appspot.com/o/vivekgsindagi.pdf?alt=media&token=ad50b1dc-af4f-45ec-bbf0-a180ada4d54f"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-teal text-teal px-4 py-2 rounded hover:bg-teal/10 transition-all duration-300 text-sm"
@@ -93,7 +93,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="/src/resume/vivekgsindagi.pdf"
+            href="https://firebasestorage.googleapis.com/v0/b/itsviv0.appspot.com/o/vivekgsindagi.pdf?alt=media&token=ad50b1dc-af4f-45ec-bbf0-a180ada4d54f"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 border border-teal text-teal px-6 py-3 rounded hover:bg-teal/10 transition-all duration-300"
