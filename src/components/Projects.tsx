@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useRef } from "react";
 import { Github, ExternalLink } from "lucide-react";
 import ProjectModal, { Project } from "./ProjectModal";
@@ -47,60 +46,78 @@ const Projects = () => {
       id: "castura",
       title: "Castura",
       description: "Screen recording tool with advanced editing features",
-      longDescription: "Castura is a comprehensive screen recording solution that allows users to capture, edit, and share their screen recordings with ease. Built with Electron and React, it provides a seamless experience across platforms.",
-      image: "https://images.unsplash.com/photo-1595675024853-1e493b8a3607?q=80&w=2187&auto=format&fit=crop",
-      tech: ["React", "Electron", "TypeScript", "FFmpeg"],
-      github: "https://github.com/vivekgsindagi",
-      demo: "https://castura.app",
-      problem: "Existing screen recording tools often lack advanced editing capabilities and user-friendly interfaces.",
-      solution: "Developed a complete solution with intuitive UI and built-in editing features, allowing users to record, edit, and share without switching applications."
+      longDescription:
+        "Castura is a comprehensive screen recording solution that allows users to capture and share their screen recordings along with voice over and camera pip. Built Next.js, it provides a seamless experience across OSs.",
+      image:
+        "https://images.unsplash.com/photo-1534939118136-e6f032db3c33?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tech: ["Next.js", "TypeScript", "Tailwind"],
+      github: "https://github.com/itsviv0/castura",
+      problem:
+        "Existing screen recording tools are paid to offer these functionalities and work on subscription models.",
+      solution:
+        "Developed a complete solution with intuitive UI and built-in editing features, allowing users to record their screen with voiceover without any additional application.",
     },
     {
       id: "cropwise",
       title: "CropWise",
       description: "AI-powered crop yield prediction application",
-      longDescription: "CropWise uses machine learning algorithms to analyze soil data, weather patterns, and historical crop performance to predict yield outcomes and provide actionable insights to farmers.",
-      image: "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?q=80&w=2370&auto=format&fit=crop",
-      tech: ["Python", "TensorFlow", "React", "Flask"],
-      github: "https://github.com/vivekgsindagi/cropwise",
-      problem: "Traditional farming relies heavily on experience and historical data, without leveraging modern predictive technologies.",
-      solution: "Created an AI model that processes multiple data points to provide accurate yield predictions and recommendations for improving crop output."
+      longDescription:
+        "CropWise uses machine learning algorithms to analyze soil data, weather patterns, and historical crop performance to predict best crop for cultivation to farmers.",
+      image:
+        "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?q=80&w=2370&auto=format&fit=crop",
+      tech: ["Python", "Scikit-Learn", "tkinter"],
+      github: "https://github.com/itsviv0/cropwise",
+      problem:
+        "Traditional farming relies heavily on experience and historical data, without leveraging modern predictive technologies.",
+      solution:
+        "Created an AI model that processes multiple data points to suggest best crop for improving crop output.",
     },
     {
       id: "repomarker",
       title: "RepoMarker",
-      description: "Enhanced Markdown editor for GitHub repositories",
-      longDescription: "RepoMarker is a specialized Markdown editor designed specifically for creating and editing documentation in GitHub repositories, with features like live preview, templates, and GitHub API integration.",
-      image: "https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=2370&auto=format&fit=crop",
-      tech: ["React", "TypeScript", "GitHub API", "CodeMirror"],
-      github: "https://github.com/vivekgsindagi/repomarker",
-      demo: "https://repomarker.dev",
-      problem: "GitHub's built-in markdown editor lacks advanced features needed for complex documentation.",
-      solution: "Built a feature-rich editor that streamlines the documentation process with specialized tools for repository management."
+      description:
+        "Feature rich web-based markdown editor built using NextJS for all those nano and vim users.",
+      longDescription:
+        "RepoMarker is an AD-FREE Markdown editor designed specifically for creating easy editing documentation in GitHub repositories, with features like live preview and last save.",
+      image:
+        "https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=2370&auto=format&fit=crop",
+      tech: ["Next.js", "TypeScript", "Tailwind"],
+      github: "https://github.com/itsviv0/repomarker",
+      problem:
+        "GitHub's built-in markdown editor lacks live preview and last save features.",
+      solution:
+        "Built a feature-rich editor that streamlines the documentation process for repository management. Simple to use, without ADs, signups.",
     },
     {
       id: "textdiff",
       title: "TextDiff",
-      description: "Text comparison tool with visualization features",
-      longDescription: "TextDiff is a powerful utility that allows users to compare two text documents and visualize the differences with advanced highlighting and side-by-side comparisons.",
-      image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?q=80&w=2366&auto=format&fit=crop",
-      tech: ["JavaScript", "D3.js", "DiffMatchPatch", "React"],
-      github: "https://github.com/vivekgsindagi/textdiff",
-      problem: "Existing text comparison tools often display differences in ways that are difficult to interpret.",
-      solution: "Developed an intuitive visualization system that makes it easy to identify and understand differences between text documents."
+      description: "Text comparison tool with visualization features.",
+      longDescription:
+        "TextDiff allows users to compare two text documents and visualize the differences with advanced highlighting and side-by-side comparisons.",
+      image:
+        "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?q=80&w=2366&auto=format&fit=crop",
+      tech: ["Next.js", "TypeScript", "Tailwind"],
+      github: "https://github.com/itsviv0/textdiff",
+      problem:
+        "Existing text comparison tools are filled with ADs and provide limited options in the free version.",
+      solution:
+        "Developed an intuitive visualization system that supports file upload and download the results.",
     },
     {
       id: "pomodoro",
       title: "MyPomodoro",
       description: "Productivity tracker with Pomodoro technique integration",
-      longDescription: "MyPomodoro helps users manage their time effectively using the Pomodoro technique, with additional features for task management, productivity analytics, and customizable work/break intervals.",
-      image: "https://images.unsplash.com/photo-1449156733864-dd5471bb7427?q=80&w=2370&auto=format&fit=crop",
-      tech: ["React Native", "Redux", "Firebase", "Chart.js"],
-      github: "https://github.com/vivekgsindagi/mypomodoro",
-      demo: "https://mypomodoro.app",
-      problem: "Many productivity apps lack personalization and data-driven insights on work patterns.",
-      solution: "Created a comprehensive productivity system that adapts to individual work styles and provides actionable insights based on usage patterns."
-    }
+      longDescription:
+        "MyPomodoro helps users manage their time effectively using the Pomodoro technique, with additional features for task management, productivity analytics, and customizable work/break intervals.",
+      image:
+        "https://images.unsplash.com/photo-1501139083538-0139583c060f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ",
+      tech: ["Kotlin", "SQLite"],
+      github: "https://github.com/itsviv0/My_Pomodoro",
+      problem:
+        "Many productivity apps lack personalization and data-driven insights on work patterns.",
+      solution:
+        "Created a comprehensive productivity system that adapts to individual work styles and provides actionable insights based on usage patterns.",
+    },
   ];
 
   return (
@@ -113,7 +130,9 @@ const Projects = () => {
             <div
               key={project.id}
               className={`project-card cursor-pointer transition-all duration-700 ease-out ${
-                isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                isVisible
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-10"
               }`}
               style={{ transitionDelay: `${index * 100}ms` }}
               onClick={() => openModal(project)}
@@ -127,9 +146,11 @@ const Projects = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-dark to-transparent opacity-80"></div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
+                <h3 className="text-xl font-bold text-white mb-2">
+                  {project.title}
+                </h3>
                 <p className="text-slate mb-4">{project.description}</p>
-                
+
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.slice(0, 3).map((tech) => (
                     <span
@@ -145,7 +166,7 @@ const Projects = () => {
                     </span>
                   )}
                 </div>
-                
+
                 <div className="flex space-x-4 mt-auto">
                   {project.github && (
                     <a
@@ -175,11 +196,11 @@ const Projects = () => {
           ))}
         </div>
       </div>
-      
-      <ProjectModal 
-        project={selectedProject} 
-        onClose={closeModal} 
-        isOpen={modalOpen} 
+
+      <ProjectModal
+        project={selectedProject}
+        onClose={closeModal}
+        isOpen={modalOpen}
       />
     </section>
   );
